@@ -1,0 +1,9 @@
+/venv
+/test
+/build
+/dist
+/__pycache__
+/GUI/__pycache__
+/GUI/pages/__pycache__
+/utils/__pycache__
+main.spec
