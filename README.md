@@ -7,6 +7,10 @@ git clone https://github.com/busjr/keypass.git
 ```
 
 ```bash
+cd keypass
+```
+
+```bash
 python -m venv venv
 ```
 
