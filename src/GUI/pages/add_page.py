@@ -251,6 +251,12 @@ class AddPage(ctk.CTkFrame):
             # читаем хранилище 
             data = decrypt(self.main_window.path, self.main_window.password)
 
+            # Проверяем на дубликат в название
+            for item in data["passwords"]:
+                if item["name"].lower() == add_data["name"].lower():
+                    print(f"{add_data['name']} уже существует") # TODO добавить уведомление
+                    return
+
             # добавляем новую запись
             data["passwords"].append(add_data)
 
