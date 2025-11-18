@@ -18,6 +18,10 @@ python -m venv venv
 ```
 
 ```bash
+venv\Scripts\activated.bat
+```
+
+```bash
 pip install -r requirements.txt
 ```
 
