@@ -2,8 +2,12 @@
 /test
 /build
 /dist
+/main.dist
+/main.build
+/main.onefile-build
 /__pycache__
 /GUI/__pycache__
 /GUI/pages/__pycache__
 /utils/__pycache__
 main.spec
+main.exe
